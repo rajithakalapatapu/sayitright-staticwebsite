@@ -1,64 +1,61 @@
 <html>
-
-
-
-<head>
-    <link rel="stylesheet" href="sayitright.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-    <header>
-        <ul>
-            <img src="imgsay/logo.png">
-            <li><a href="HomePage.html">Home</a></li>
-            <li><a href="AboutUs.html">About US</a></li>
-            <li><a href="contactus.html">Contact US</a></li>
-            <li><a href="buyfromus.html">Buy From US</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-    </header>
-
-    <div class="content">
-        <div class="breadcrumb">
-            <img src="imgsay\home-banner.jpg" alt="Home Page">
-            <h6>Home --> Contact </h6>
-            <h4>CONTACT US</h4>
-        </div>
-        <div class="contactus">
-            <form action="">
-                <div class="contactusgrid">
-                    <div class="contactusleft">
-                        <div>
-                            <input type="text" name="fname" value="Enter your name">
+    <head>
+        <link rel="stylesheet" href="sayitright.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <nav>
+            <div class="nav_left">
+                <img src="imgsay/logo.png">
+            </div>
+            <div class="nav_right">
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a href="AboutUs.html">About US</a></li>
+                    <li><a href="contactus.html">Contact US</a></li>
+                    <li><a href="buyfromus.html">Buy From US</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="breadcrumb">
+                <img src="imgsay\home-banner.jpg" alt="Home Page">
+                <h6 id="breadcrumbh6">Home --> Contact </h6>
+                <h4 id="breadcrumbh4">CONTACT US</h4>
+            </div>
+            <div class="contactus">
+                <form action="">
+                    <div class="contactusgrid">
+                        <div class="contactusleft">
+                            <div>
+                                <input type="text" name="fname" value="Enter your name">
+                            </div>
+                            <div>
+                                <input type="text" name="lname" value="Enter last name">
+                            </div>
+                            <div>
+                                <input type="text" name="phone" value="Telephone">
+                            </div>
                         </div>
-                        <div>
-                            <input type="text" name="lname" value="Enter last name">
-                        </div>
-                        <div>
-                            <input type="text" name="phone" value="Telephone">
+                        <div class="contactusright">
+                            <div>
+                                <textarea rows="4" cols="50" name="Message" value="">Enter Message</textarea>
+                            </div>
+                            
                         </div>
                     </div>
-                    <div class="contactusright">
-                        <div> 
-                            <textarea rows="4" cols="50" name="Message" value="">Enter Message</textarea>
-                        </div>
-                        
+                    <div>
+                        <button class="contactussend" id="button">SEND MESSAGE</button>
                     </div>
-                </div>
-
-                <div>
-                    <button class="contactussend" id="button">SEND MESSAGE</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
-    </div>
-    <div class="copyright">
-        <p> Copyright @2019 All rights reserved | This web is made with &#9825; by DiazApps</p>
-    </div>
-
-</body>
-
+        <div class="copyright">
+            <p class="white"> Copyright @2019 All rights reserved | This web is made with &#9825;</p>
+            <p class="blue">by DiazApps </p>
+        </div>
+    </body>
 </html>

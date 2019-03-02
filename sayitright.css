@@ -157,7 +157,6 @@ h5 {
 }
 
 .contactus {
-    border: solid;
     background-color: white;
     color: black;
     width: 100%;
@@ -177,6 +176,8 @@ h5 {
     padding: 10px;
     position: relative;
     left: 90%;
+    border-radius: 5px;
+     border: none;
 }
 
 .contactusgrid {
