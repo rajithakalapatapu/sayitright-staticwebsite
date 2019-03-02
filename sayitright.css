@@ -21,6 +21,11 @@ nav {
         float: none;
         width: 100%;
     }
+
+    .aboutus {
+        /* Start wrapping if the width is too low */
+        flex-wrap: wrap;
+    }
 }
 
 .nav_left {
@@ -141,6 +146,7 @@ h5 {
     align-items: center;
     justify-content: center;
     display: flex;
+
     background-color: #000033;
     width: 60%;
     margin: 5% auto 5% auto;
