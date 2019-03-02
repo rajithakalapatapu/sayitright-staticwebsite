@@ -9,11 +9,11 @@ nav {
     font-weight: bold;
 }
 
-@media screen and (max-width: 600px)
-{
-   .nav_left, .nav_right
-    {
-       max-width: 100%;
+@media screen and (max-width: 600px) {
+
+    .nav_left,
+    .nav_right {
+        max-width: 100%;
     }
 }
 
@@ -35,7 +35,7 @@ nav img {
     float: left;
     height: 40px;
     width: 80px;
-} 
+}
 
 nav ul li {
     float: left;
@@ -58,7 +58,10 @@ nav ul li a:hover {
     color: rgb(0, 153, 255);
 }
 
-h2, h4, h5, h6 {
+h2,
+h4,
+h5,
+h6 {
     color: white;
     /*font-family: 'Rajdhani'; */
     font-family: serif;
@@ -70,7 +73,7 @@ h6 {
 
 h4 {
     text-align: center;
-/*    top: 30%;
+    /*    top: 30%;
     position: absolute;*/
 }
 
@@ -101,8 +104,7 @@ h5 {
     color: white;
 }
 
-.content {
-}
+.content {}
 
 .breadcrumb {
     position: relative;
@@ -139,7 +141,7 @@ h5 {
 }
 
 .aboutusimage img {
-    width: 550px; 
+    width: 550px;
     height: 275px;
     padding: 10px;
     padding-left: 50px;
@@ -267,12 +269,12 @@ h5 {
     border-radius: 12px;
 }
 
-#cartbuy{
+#cartbuy {
     text-align: center;
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
     border-radius: 20px;
     padding: 15px;
-    float:right;
+    float: right;
     border-width: 2px;
     border-style: solid;
 }
@@ -337,6 +339,7 @@ h5 {
     text-align: center;
     background-color: grey;
 }
+
 .label {
     background-color: #efefef;
     text-align: right;
@@ -356,9 +359,9 @@ h5 {
 
 
 
-.conferenceslist>h4{
-    color:black;
-    position:relative;
+.conferenceslist>h4 {
+    color: black;
+    position: relative;
     top: 30%;
     padding: 10px;
     font-size: 140%;
@@ -366,38 +369,43 @@ h5 {
 
 
 }
-#conferencedetails{
+
+#conferencedetails {
     border-collapse: collapse;
     border-spacing: 5px;
-    width:80%;
-    height:30%;
+    width: 80%;
+    height: 30%;
 
 }
 
-.loginsend{
-     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-     padding:10px;
-     position: relative;
-     left:35%;
-     border-radius: 4px;
-
+.loginsend {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 5%;
+    top: 55%;
 }
 
-.login{
+.login {
+    padding: 100px;
+    text-align: left;
+    justify-content: center;
     position: relative;
-    top:20%;
-
-
 }
-.loginform>div{
+
+.loginform>div {
     padding: 10px;
 }
-.loginform{
-    box-shadow:5px 10px #888888;
+
+.loginform {
+    box-shadow: 5px 5px #888888;
     width: 40%;
     position: relative;
     left: 30%;
 }
+
 .signupgrid {
     margin: 10px;
     display: grid;
@@ -407,118 +415,130 @@ h5 {
     padding: 20px;
     width: 60%;
 }
-.signupform{
-    box-shadow:5px 10px #888888;
+
+.signupform {
+    box-shadow: 5px 10px #888888;
     width: 35%;
-    height:20%;
+    height: 20%;
     position: relative;
     left: 30%;
 
 }
-.signup{
-    position:relative;
-    top:10%;
+
+.signup {
+    position: relative;
+    top: 10%;
 }
-.individualsend{
+
+.individualsend {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
     padding: 5px;
 
 }
-.eventsend{
+
+.eventsend {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
     padding: 5px;
 }
-.businesssend{
+
+.businesssend {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-    padding:5px;
+    padding: 5px;
 }
+
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
-.modal-content>img{
-    width:100px;
-    height:100px;
-    float:left;
+.modal-content>img {
+    width: 100px;
+    height: 100px;
+    float: left;
 
 }
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-  height: 30%;
-  
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 30%;
+
 }
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
-.h3{
+
+.h3 {
     text-align: center;
 }
 
-.red{
+.red {
     color: red;
 }
+
 .buytablebutton {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
     padding: 10px;
     border-radius: 5px;
     border: none;
- } 
-
-#one{
 }
 
-#two{
-}
+#one {}
 
-#three{
-}
+#two {}
 
-#four{
-}
+#three {}
 
-#five{
-}
+#four {}
 
-#six{
-}
+#five {}
 
-.signupform{
+#six {}
+
+.signupform {
     height: 50%;
 
 }
-.indsignupgrid{
+
+.indsignupgrid {
     /*border: solid;*/
     /*background-color: white;*/
     color: black;
-    height:80%;
+    height: 80%;
     width: 80%;
     /*height: 450px;*/
     /*align-items: center;*/
@@ -528,6 +548,7 @@ h5 {
     /*justify-content: center;*/
 
 }
+
 .blue {
-    color:blue;
+    color: blue;
 }
