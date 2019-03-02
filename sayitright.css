@@ -177,7 +177,7 @@ h5 {
     position: relative;
     left: 90%;
     border-radius: 5px;
-     border: none;
+    border: none;
 }
 
 .contactusgrid {
@@ -212,9 +212,9 @@ h5 {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 50%;
-    height: 100%;
     margin: 0px auto 0px auto;
     grid-gap: 10px;
+    padding-bottom: 10%;
     /*border-style: dashed;*/
 }
 
@@ -231,11 +231,11 @@ h5 {
 .footer {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
     padding: 10px;
-    text-align: left;
+    margin: auto;
 }
 
 #footerh2 {
-    margin: 20px 140px auto 140px;
+    margin: 10px 140px 10px 140px;
     font-weight: bold;
     color: #000033;
 }
@@ -257,7 +257,6 @@ h5 {
 }
 
 #footersubscribe {
-    /*float: right;*/
     margin-left: -100px;
     border-radius: 12px;
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
@@ -268,12 +267,14 @@ h5 {
     border-radius: 12px;
 }
 
-#cart{
+#cartbuy{
     text-align: center;
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-    border-radius: 50%;
+    border-radius: 20px;
     padding: 15px;
     float:right;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .homepageleft img {
@@ -484,37 +485,31 @@ h5 {
 .red{
     color: red;
 }
+.buytablebutton {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+ } 
+
 #one{
-     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-     padding: 10px;
-     margin: 4px 2px;
-
 }
+
 #two{
-     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-     padding: 10px;
-
 }
+
 #three{
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-     padding: 10px;
-
 }
+
 #four{
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-     padding: 10px;
-
 }
+
 #five{
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-     padding: 10px;
-
 }
+
 #six{
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-     padding: 10px;
-
 }
+
 .signupform{
     height: 50%;
 
