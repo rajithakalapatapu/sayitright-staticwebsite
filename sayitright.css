@@ -357,7 +357,9 @@ h5 {
     width: 70%;
 }
 
-
+.conferenceslist {
+    padding-bottom: 5%;
+}
 
 .conferenceslist>h4 {
     color: black;
@@ -366,16 +368,12 @@ h5 {
     padding: 10px;
     font-size: 140%;
     font-weight: bolder;
-
-
 }
 
 #conferencedetails {
     border-collapse: collapse;
     border-spacing: 5px;
     width: 80%;
-    height: 30%;
-
 }
 
 .loginsend {
