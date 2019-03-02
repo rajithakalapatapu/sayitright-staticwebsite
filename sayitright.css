@@ -15,6 +15,12 @@ nav {
     .nav_right {
         max-width: 100%;
     }
+
+    /* Convert horizontal nav links to vertical */
+    nav ul li {
+        float: none;
+        width: 100%;
+    }
 }
 
 .nav_left {
