@@ -1,0 +1,71 @@
+
+#activitiesperformed {
+    height: 100px;
+    width: 120px;   
+    margin: 2em;
+    background-color: blue;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+    display: grid;
+    text-align: center;
+    position: relative;
+    top:10px;
+    left:20px;
+}
+
+#header {
+    background-color: #000033;
+    margin: auto;
+    overflow: auto;
+
+}
+#nav{
+	color:white;
+
+}
+
+#footer {
+    background-color: #000033;
+    top: 80%;
+    padding: 10px;
+}
+
+#footer>p{
+	color:white;
+}
+
+#firstone {
+    height: 100px;
+    width: 120px;
+    background-color: green;
+    position:relative;
+    bottom:20%;
+    left:200px;
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+   
+    
+
+
+
+}
+
+#secondone {
+    height: 100px;
+    width: 120px;
+     margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+   background-color: yellow;
+}
+
+#thirdone {
+    height: 100px;
+    width: 120px;
+    margin: 2em;
+     margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+   background-color: wheat;
+}
+body{
+    text-align: center;
+}

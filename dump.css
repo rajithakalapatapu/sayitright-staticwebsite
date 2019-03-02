@@ -1,0 +1,54 @@
+<style>
+    body {
+        margin: 0;
+    }
+    
+    p {
+        color: white;
+        position: absolute;
+        top: 50%;
+        text-align: inherit;
+        font-size: large;
+        font-family: Rajdhani;
+    }
+    
+    .header {
+        widows: 100px;
+        background-color: #000033;
+        margin: auto;
+        overflow: auto;
+        height: 60px;
+        /* display: inline; */
+        padding: 10px;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    a:link {
+        columns: #777777;
+        widows: 125px;
+        text-decoration: none;
+        text-align: center;
+        padding: 15px;
+        text-transform: uppercase;
+        /* font-family: white; */
+    }
+    
+    a:hover {
+        background-color: rgb(0, 153, 255);
+    }
+    
+    footer {
+        background-color: rgb(0, 234, 255);
+        height: 50px;
+        position: relative;
+    }
+</style>

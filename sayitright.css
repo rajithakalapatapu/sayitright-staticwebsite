@@ -1,0 +1,537 @@
+body {
+    text-align: center;
+    /*font-family: 'Rajdhani';font-size: 22px;*/
+}
+
+nav {
+    background-color: #000033;
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px)
+{
+   .nav_left, .nav_right
+    {
+       max-width: 100%;
+    }
+}
+
+.nav_left {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav_right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav img {
+    float: left;
+    height: 40px;
+    width: 80px;
+} 
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:link {
+    columns: #777777;
+    widows: 125px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 153, 255);
+}
+
+h2, h4, h5, h6 {
+    color: white;
+    /*font-family: 'Rajdhani'; */
+    font-family: serif;
+}
+
+h6 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+/*    top: 30%;
+    position: absolute;*/
+}
+
+h5 {
+    padding: 10px;
+}
+
+.bkgnd {
+    background-image: url("imgsay/home-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.copyright {
+    background-color: #000033;
+    width: 100%;
+    height: 100px;
+    font-size: 0.70em Roboto;
+    font-style: italic;
+}
+
+.copyright p {
+    display: inline;
+}
+
+.white {
+    color: white;
+}
+
+.content {
+}
+
+.breadcrumb {
+    position: relative;
+}
+
+#breadcrumbh6 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 35%;
+    left: 0;
+}
+
+#breadcrumbh4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.breadcrumb img {
+    width: 100%;
+    height: 30%;
+}
+
+.aboutus {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #000033;
+    width: 60%;
+    margin: 5% auto 5% auto;
+}
+
+.aboutusimage img {
+    width: 550px; 
+    height: 275px;
+    padding: 10px;
+    padding-left: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aboutustext {
+    text-align: left;
+    padding: 30px;
+}
+
+.aboutustext p {
+    color: white;
+}
+
+.contactus {
+    border: solid;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 450px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    text-align: left;
+    justify-content: center;
+}
+
+.contactussend {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    padding: 0px 35px;
+    color: #222222;
+    padding: 10px;
+    position: relative;
+    left: 90%;
+}
+
+.contactusgrid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 0px auto 0px auto;
+    grid-column-gap: 20px;
+    height: 30%;
+    width: 70%;
+    padding: 20px;
+}
+
+.contactusleft>div {
+    margin: 10px;
+    padding-right: 20px;
+}
+
+.contactusright>div {
+    margin: 10px;
+}
+
+
+.buyfromuscontenttitle {
+    padding: 10px;
+    font-size: 140%;
+    font-weight: bolder;
+}
+
+.buyfromustable {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    grid-gap: 10px;
+    /*border-style: dashed;*/
+}
+
+.buyfromustabledata {
+    text-align: center;
+
+}
+
+.buyfromustabledata>img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    padding: 10px;
+    text-align: left;
+}
+
+#footerh2 {
+    margin: 20px 140px auto 140px;
+    font-weight: bold;
+    color: #000033;
+}
+
+#footerh6 {
+    margin: 5px 140px 20px 140px;
+    color: #777777;
+    text-align: left;
+}
+
+.footerleft {
+    display: inline-block;
+    vertical-align: center;
+}
+
+.footerright {
+    display: inline-block;
+    vertical-align: center;
+}
+
+#footersubscribe {
+    /*float: right;*/
+    margin-left: -100px;
+    border-radius: 12px;
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+}
+
+#footertextarea {
+    resize: none;
+    border-radius: 12px;
+}
+
+#cart{
+    text-align: center;
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    border-radius: 50%;
+    padding: 15px;
+    float:right;
+}
+
+.homepageleft img {
+    width: 30%;
+    height: 70%;
+}
+
+.homepageright_playbutton {
+    display: inline-block;
+    padding: 10px;
+}
+
+.homepageright_playtext {
+    display: inline-block;
+}
+
+.homepagegrid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 0px auto 0px auto;
+    grid-column-gap: 0px;
+    width: 70%;
+    padding: 200px;
+}
+
+.summarygrid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1.5fr 0.6fr;
+    margin: 0px auto 0px auto;
+    grid-column-gap: 20px;
+    height: 30%;
+    padding: 20px;
+    width: 70%;
+}
+
+.summarygrid>div {
+    padding: 10px;
+}
+
+.totalmade {
+    text-align: center;
+    background-color: navy;
+}
+
+.conferences {
+    text-align: center;
+    background-color: green;
+}
+
+.events {
+    text-align: center;
+    background-color: yellow;
+}
+
+.activities {
+    text-align: center;
+    background-color: grey;
+}
+.label {
+    background-color: #efefef;
+    text-align: right;
+}
+
+.cardgrid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1.5fr 0.6fr;
+    margin: 0px auto 0px auto;
+    grid-column-gap: 20px;
+    height: 30%;
+    padding: 20px;
+    width: 70%;
+}
+
+
+
+.conferenceslist>h4{
+    color:black;
+    position:relative;
+    top: 30%;
+    padding: 10px;
+    font-size: 140%;
+    font-weight: bolder;
+
+
+}
+#conferencedetails{
+    border-collapse: collapse;
+    border-spacing: 5px;
+    width:80%;
+    height:30%;
+
+}
+
+.loginsend{
+     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+     padding:10px;
+     position: relative;
+     left:35%;
+     border-radius: 4px;
+
+}
+
+.login{
+    position: relative;
+    top:20%;
+
+
+}
+.loginform>div{
+    padding: 10px;
+}
+.loginform{
+    box-shadow:5px 10px #888888;
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+.signupgrid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px auto 0px auto;
+    height: 30%;
+    padding: 20px;
+    width: 60%;
+}
+.signupform{
+    box-shadow:5px 10px #888888;
+    width: 35%;
+    height:20%;
+    position: relative;
+    left: 30%;
+
+}
+.signup{
+    position:relative;
+    top:10%;
+}
+.individualsend{
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    padding: 5px;
+
+}
+.eventsend{
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    padding: 5px;
+}
+.businesssend{
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    padding:5px;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content>img{
+    width:100px;
+    height:100px;
+    float:left;
+
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  height: 30%;
+  
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.h3{
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+#one{
+     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+     padding: 10px;
+     margin: 4px 2px;
+
+}
+#two{
+     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+     padding: 10px;
+
+}
+#three{
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+     padding: 10px;
+
+}
+#four{
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+     padding: 10px;
+
+}
+#five{
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+     padding: 10px;
+
+}
+#six{
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+     padding: 10px;
+
+}
+.signupform{
+    height: 50%;
+
+}
+.indsignupgrid{
+    /*border: solid;*/
+    /*background-color: white;*/
+    color: black;
+    height:80%;
+    width: 80%;
+    /*height: 450px;*/
+    /*align-items: center;*/
+    /*display: flex;*/
+    /*background-color: white;*/
+    text-align: left;
+    /*justify-content: center;*/
+
+}
+.blue {
+    color:blue;
+}

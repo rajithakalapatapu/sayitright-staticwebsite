@@ -1,0 +1,14 @@
+#header {
+    background-color: #000033;
+    margin: auto;
+    overflow: auto;
+    /* display: inline; */
+    padding: 10px;
+}
+
+#header li {
+    float: left;
+    padding: 10px;
+    color: white;
+    align-items: center;
+}
