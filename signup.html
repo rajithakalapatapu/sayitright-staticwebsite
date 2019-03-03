@@ -30,26 +30,101 @@
         </div>
         <div class="signup">
             <form action="">
-                <div class="signupform">
+                <div class="signupform" id="signupform">
                     <div>
                         <p> Select the type of user</p>
                     </div>
-                    <div class="signupgrid">
+                    <div class="signupgrid" id="signupgrid">
                         <div>
-                            <button class="individualsend" id="button1">INDIVIDUAL</button>
+                            <p class="individualsend" onclick="individualsignup()">INDIVIDUAL</p>
                         </div>
                         <div>
-                            <button class="eventsend" id="button2">EVENT</button>
+                            <p class="eventsend" onclick="eventsignup()">EVENT</p>
                         </div>
                         <div>
-                            <button class="businesssend" id="button3">BUSINESS</button>
+                            <p class="businesssend" onclick="businesssignup()">BUSINESS</p>
                         </div>
+                    </div>
+                    <div class="individualsignupform" id="individualsignupform" style="display: none">
+                        <h4> Welcome to the individual registration</h4><br>
+                        <div>
+                            <input type="text" name="fname" value="Enter your name">
+                        </div>
+                        <div>
+                            <input type="text" name="lname" value="Enter last name">
+                        </div>
+                        <div>
+                            <input type="text" name="work" value="Enter place of work">
+                        </div>
+                        <div>
+                            <input type="text" name="school" value="Enter school">
+                        </div>
+                        <div>
+                            <input type="email" name="email" value="Enter email">
+                        </div>
+                        <div>
+                            <input type="text" name="password" value="Enter password">
+                        </div>
+                        <button id="singupsend">SEND</button>
+                    </div>
+                    <div class="eventsignupform" id="eventsignupform" style="display: none">
+                        <h4> Welcome to the event log</h4><br>
+                        <div>
+                            <input type="text" name="fname" value="Enter your name">
+                        </div>
+                        <div>
+                            <input type="text" name="lname" value="Enter last name">
+                        </div>
+                        <div>
+                            <input type="email" name="email" value="Enter email">
+                        </div>
+                        <div>
+                            <input type="text" name="password" value="Enter password">
+                        </div>
+                        <button id="singupsend">SEND</button>
+                    </div>
+                    <div class="businesssignupform" id="businesssignupform" style="display: block">
+                        <h4> Welcome to business records</h4><br>
+                        <div class="radiobuttons">
+                            <h6> type of Business: </h6>
+                            <input type="radio" name="businesstype" value="University"> University
+                            <input type="radio" name="businesstype" value="Company"> Company
+                        </div>
+                        <div>
+                            <input type="text" name="lname" value="Enter last name">
+                        </div>
+                        <div>
+                            <input type="email" name="email" value="Enter email">
+                        </div>
+                        <div>
+                            <input type="text" name="password" value="Enter password">
+                        </div>
+                        <button id="singupsend">SEND</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-    <div id="mymodal" class="modal">
+    <script type="text/javascript">
+    function individualsignup() {
+        document.getElementById("individualsignupform").style.display = "block";
+        document.getElementById("eventsignupform").style.display = "none";
+        document.getElementById("businesssignupform").style.display = "none";
+    }
+
+    function eventsignup() {
+        document.getElementById("individualsignupform").style.display = "none";
+        document.getElementById("eventsignupform").style.display = "block";
+        document.getElementById("businesssignupform").style.display = "none";
+    }
+
+    function businesssignup() {
+        document.getElementById("individualsignupform").style.display = "none";
+        document.getElementById("eventsignupform").style.display = "none";
+        document.getElementById("businesssignupform").style.display = "block";
+    }
+    </script>
+    <!-- <div id="mymodal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <p> Welcome to the individual registration</p>
@@ -62,8 +137,9 @@
             <script type="text/javascript">
             function myFunction() {
                 var x = document.getElementById("form");
+            }
             </script>
-    </div>
+    </div> -->
     <div class="copyright">
         <p class="white"> Copyright @2019 All rights reserved</p>
         <p class="white"> | This web is made with &#9825;</p>

@@ -28,6 +28,7 @@ nav {
         /* Start wrapping if the width is too low */
         flex-wrap: wrap;
     }
+
 }
 
 .nav_left,
@@ -496,11 +497,15 @@ h5 {
 
 .signupgrid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     margin: 0px auto 0px auto;
     /*height: 30%;*/
     /*padding: 20px;*/
     width: 80%;
+}
+
+.signupgrid>div>p {
+    margin: 10px;
 }
 
 .signupform {
@@ -515,23 +520,11 @@ h5 {
     margin: 10% 10% 10% 10%;
 }
 
-.individualsend {
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-    padding: 5px;
-    border-radius: 5px;
-    border-style: none;
-}
-
-.eventsend {
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-    padding: 5px;
-    border-radius: 5px;
-    border-style: none;
-}
-
+.individualsend,
+.eventsend,
 .businesssend {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     border-style: none;
 }
@@ -619,19 +612,57 @@ h5 {
 
 #six {}
 
-.indsignupgrid {
-    /*border: solid;*/
-    /*background-color: white;*/
+#singupsend {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    color: #222222;
+    padding: 10px;
+    position: relative;
+    left: 85%;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.individualsignupform>h4,
+.eventsignupform>h4,
+.businesssignupform>h4,
+.radiobuttons>h6 {
     color: black;
-    height: 80%;
-    width: 80%;
+    text-align: center;
+}
+
+.individualsignupform>div,
+.eventsignupform>div,
+.businesssignupform>div {
+    padding: 4px;
+}
+
+.radiobuttons {
+    display: inline-block;
+    position: relative;
+    left: 25%;
+}
+
+.radiobuttons>h6,
+.radiobuttons>input {
+    display: inline-block;
+    text-align: center;
+}
+
+.individualsignupform,
+.eventsignupform,
+.businesssignupform {
+    text-align: left;
+    color: black;
+    width: 100%;
+    /*height: 80%;*/
+    /*background-color: white;*/
     /*height: 450px;*/
     /*align-items: center;*/
     /*display: flex;*/
     /*background-color: white;*/
-    text-align: left;
     /*justify-content: center;*/
-
 }
 
 .blue {
