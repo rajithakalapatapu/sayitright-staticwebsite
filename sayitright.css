@@ -14,7 +14,9 @@ nav {
     .nav_left,
     .nav_right,
     .shipping_left,
-    .shipping_right {
+    .shipping_right,
+    .settings_left,
+    .settings_right {
         max-width: 100%;
     }
 
@@ -34,7 +36,9 @@ nav {
 .nav_left,
 .nav_right,
 .shipping_left,
-.shipping_right {
+.shipping_right,
+.settings_left,
+.settings_right {
     display: inline-block;
     vertical-align: top;
 }
@@ -46,10 +50,17 @@ nav {
 }
 
 .shipping_left>*,
-.shipping_one_line>* {
+.shipping_one_line>*,
+.settings_right>* {
     padding: 5px;
     margin: 2px;
     text-align: left;
+}
+
+.settings_left>div,
+.settings_left>div>* {
+    display: block;
+    width: 100%;
 }
 
 .shipping_right>* {
@@ -59,7 +70,8 @@ nav {
 }
 
 .shipping_one_line>input,
-.shipping_one_line>select {
+.shipping_one_line>select,
+.shipping_one_line>div {
     display: inline;
 }
 
@@ -94,13 +106,31 @@ nav {
 .shipping_price {
     text-align: center;
     padding: 4px;
+}
 
+.settings_image_button {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    color: #222222;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.settingsbutton {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    color: #222222;
+    padding: 10px;
+    float: right;
+    margin:20px;
+    border-radius: 5px;
+    border: none;
 }
 
 .shippingsend {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
     background-size: 200% auto;
-    padding: 0px 35px;
     color: #222222;
     padding: 10px;
     position: relative;
@@ -667,4 +697,14 @@ h5 {
 
 .blue {
     color: blue;
+}
+
+.settingsh4 {
+    color: black;
+}
+
+.settings {
+    width: 80%;
+    margin: 5% auto 5% auto;
+    align-items: center;
 }
