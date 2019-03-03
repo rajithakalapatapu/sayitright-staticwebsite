@@ -38,7 +38,8 @@ nav {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .contactussend {
+    .contactussend,
+    .loginsend {
         width: 100%;
     }
 
@@ -514,27 +515,22 @@ h5 {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    position: absolute;
-    right: 5%;
-    top: 55%;
 }
 
 .login {
-    padding: 100px;
+    margin: 5% auto 5% auto;
     text-align: left;
     justify-content: center;
-    position: relative;
 }
 
-.loginform>div {
+.loginform>div,
+.loginform>div>* {
     padding: 10px;
 }
 
 .loginform {
-    box-shadow: 5px 5px #888888;
-    width: 40%;
-    position: relative;
-    left: 30%;
+    box-shadow: 2px 2px 5px 5px #888888;
+    margin: auto 30% auto 30%;
 }
 
 .signupgrid {
