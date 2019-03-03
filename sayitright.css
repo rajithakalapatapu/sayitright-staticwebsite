@@ -104,6 +104,11 @@ h5 {
     padding: 10px;
 }
 
+#wrapper {
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
 .bkgnd {
     background-image: url("imgsay/home-banner.jpg");
     background-position: center;
@@ -179,8 +184,8 @@ h5 {
 }
 
 .aboutustexth5 {
-  text-decoration: underline;
-  text-decoration-color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
 }
 
 .aboutustext p {
@@ -339,14 +344,27 @@ h5 {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 1.5fr 0.6fr;
     margin: 0px auto 0px auto;
-    grid-column-gap: 20px;
-    height: 30%;
+    grid-column-gap: 30px;
     padding: 20px;
-    width: 70%;
 }
 
 .summarygrid>div {
     padding: 10px;
+}
+
+.summary_card_icon {
+    float: left;
+}
+
+.summary_card_text {
+    float: right;
+    text-align: right;
+    padding: 10px;
+}
+
+.summary_card_label {
+    clear: both;
+    margin: auto auto -10 auto;
 }
 
 .totalmade {
@@ -372,18 +390,97 @@ h5 {
 .label {
     background-color: #efefef;
     text-align: right;
+    padding: 20px;
 }
 
 .cardgrid {
     margin: 10px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 1.5fr 0.6fr;
     margin: 0px auto 0px auto;
-    grid-column-gap: 20px;
-    height: 30%;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
     padding: 20px;
-    width: 70%;
+}
+
+.bluecard {
+    background-color: #000077;
+}
+
+.blue_header {
+    border-bottom-color: #000077;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.greycard {
+    background-color: grey;
+}
+
+.black_header {
+    border-bottom-color: black;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.greencard {
+    background-color: #00bb00;
+}
+
+.grey_header {
+    border-bottom-color: grey;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.grey_background {
+    background-color: #e8e8e8;
+}
+
+.redcard {
+    background-color: red;
+}
+
+.yellowcard {
+    background-color: #f2bf26;
+}
+
+.cyancard {
+    background-color: #338ba5;
+}
+
+.whitecard {
+    background-color: white;
+}
+
+.blackcard {
+    background-color: black;
+}
+
+.onecard {
+    text-align: left;
+    border-radius: 5px;
+    border: 1px dotted;
+    border-color: grey;
+}
+
+.white_text {
+    line-height: 1.5em;
+    color: white;
+    padding: 10px;
+}
+
+.black_text {
+    color: black;
+    padding: 10px;
+}
+
+.bold_text {
+    font-weight: bold;
+}
+
+.card_content {
+    line-height: 1.5em;
 }
 
 .conferenceslist {
