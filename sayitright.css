@@ -31,6 +31,11 @@ nav {
         flex-wrap: wrap;
     }
 
+    .buyfromustable {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 .nav_left,
@@ -123,7 +128,7 @@ nav {
     color: #222222;
     padding: 10px;
     float: right;
-    margin:20px;
+    margin: 20px;
     border-radius: 5px;
     border: none;
 }
@@ -333,22 +338,21 @@ h5 {
 
 .buyfromustable {
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 50%;
-    margin: 0px auto 0px auto;
+    margin: auto 10% 10% 10%;
     grid-gap: 10px;
-    padding-bottom: 10%;
-    /*border-style: dashed;*/
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .buyfromustabledata {
-    text-align: center;
-
+    text-align: left;
+    border: 1px dotted;
+    margin: 20px;
+    padding: 20px;
 }
 
 .buyfromustabledata>img {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
 }
 
 .footer {
