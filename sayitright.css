@@ -16,7 +16,9 @@ nav {
     .shipping_left,
     .shipping_right,
     .settings_left,
-    .settings_right {
+    .settings_right,
+    .contactusleft,
+    .contactusright {
         max-width: 100%;
     }
 
@@ -36,6 +38,10 @@ nav {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .contactussend {
+        width: 100%;
+    }
+
 }
 
 .nav_left,
@@ -45,7 +51,9 @@ nav {
 .settings_left,
 .settings_right,
 .modal-content-left,
-.modal-content-right {
+.modal-content-right,
+.contactusleft,
+.contactusright {
     display: inline-block;
     vertical-align: top;
 }
@@ -210,8 +218,7 @@ h5 {
     padding: 0px 35px;
     color: #222222;
     padding: 10px;
-    position: relative;
-    left: 90%;
+    float: right;
     border-radius: 5px;
     border: none;
 }
