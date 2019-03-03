@@ -12,7 +12,9 @@ nav {
 @media screen and (max-width: 600px) {
 
     .nav_left,
-    .nav_right {
+    .nav_right,
+    .shipping_left,
+    .shipping_right {
         max-width: 100%;
     }
 
@@ -28,14 +30,90 @@ nav {
     }
 }
 
-.nav_left {
+.nav_left,
+.nav_right,
+.shipping_left,
+.shipping_right {
     display: inline-block;
     vertical-align: top;
 }
 
-.nav_right {
-    display: inline-block;
-    vertical-align: top;
+.shipping {
+    box-shadow: 5px 5px 5px 5px #888888;
+    border: 2px;
+    margin: 0 20% 0 20%;
+}
+
+.shipping_left>*,
+.shipping_one_line>* {
+    padding: 5px;
+    margin: 2px;
+    text-align: left;
+}
+
+.shipping_right>* {
+    padding: 15px;
+    margin: 6px;
+    text-align: center;
+}
+
+.shipping_one_line>input,
+.shipping_one_line>select {
+    display: inline;
+}
+
+.shipping_left>input,
+.shipping_left>button {
+    display: block;
+}
+
+.shipping_right>h6 {
+    color: black;
+}
+
+.shipping_header>h4 {
+    display: inline;
+    color: black;
+    font-weight: bold;
+}
+
+.shipping_entry>h4 {
+    display: inline;
+    color: black;
+    font-weight: lighter;
+}
+
+.shipping_id {
+    padding: 4px;
+    text-align: center;
+}
+
+.shipping_name,
+.shipping_units,
+.shipping_price {
+    text-align: center;
+    padding: 4px;
+
+}
+
+.shippingsend {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    padding: 0px 35px;
+    color: #222222;
+    padding: 10px;
+    position: relative;
+    left: 70%;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Clear floats after the columns */
+.shipping_header:after,
+.shipping_entry:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 nav ul {
