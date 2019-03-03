@@ -50,110 +50,6 @@ nav {
     vertical-align: top;
 }
 
-.shipping {
-    box-shadow: 5px 5px 5px 5px #888888;
-    border: 2px;
-    margin: 0 20% 0 20%;
-}
-
-.shipping_left>*,
-.shipping_one_line>*,
-.settings_right>* {
-    padding: 5px;
-    margin: 2px;
-    text-align: left;
-}
-
-.settings_left>div,
-.settings_left>div>* {
-    display: block;
-    width: 100%;
-}
-
-.shipping_right>* {
-    padding: 15px;
-    margin: 6px;
-    text-align: center;
-}
-
-.shipping_one_line>input,
-.shipping_one_line>select,
-.shipping_one_line>div {
-    display: inline;
-}
-
-.shipping_left>input,
-.shipping_left>button {
-    display: block;
-}
-
-.shipping_right>h6 {
-    color: black;
-}
-
-.shipping_header>h4 {
-    display: inline;
-    color: black;
-    font-weight: bold;
-}
-
-.shipping_entry>h4 {
-    display: inline;
-    color: black;
-    font-weight: lighter;
-}
-
-.shipping_id {
-    padding: 4px;
-    text-align: center;
-}
-
-.shipping_name,
-.shipping_units,
-.shipping_price {
-    text-align: center;
-    padding: 4px;
-}
-
-.settings_image_button {
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-    background-size: 200% auto;
-    color: #222222;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-.settingsbutton {
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-    background-size: 200% auto;
-    color: #222222;
-    padding: 10px;
-    float: right;
-    margin: 20px;
-    border-radius: 5px;
-    border: none;
-}
-
-.shippingsend {
-    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-    background-size: 200% auto;
-    color: #222222;
-    padding: 10px;
-    position: relative;
-    left: 70%;
-    border-radius: 5px;
-    border: none;
-}
-
-/* Clear floats after the columns */
-.shipping_header:after,
-.shipping_entry:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 nav ul {
     list-style: none;
 }
@@ -732,6 +628,26 @@ h5 {
     color: blue;
 }
 
+.settings_image_button {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    color: #222222;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.settingsbutton {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    color: #222222;
+    padding: 10px;
+    float: right;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
 .settingsh4 {
     color: black;
 }
@@ -740,4 +656,73 @@ h5 {
     width: 80%;
     margin: 5% auto 5% auto;
     align-items: center;
+}
+
+.shipping {
+    box-shadow: 5px 5px 5px 5px #888888;
+    border: 2px;
+    margin: 5% 20% 10% 20%;
+}
+
+.shipping_left>*,
+.shipping_one_line>*,
+.settings_right>* {
+    padding: 5px;
+    margin: 2px;
+    text-align: left;
+}
+
+.settings_left>div,
+.settings_left>div>* {
+    display: block;
+    width: 100%;
+}
+
+.shipping_right>* {
+    padding: 15px;
+    margin: 6px;
+    text-align: center;
+}
+
+.shipping_one_line>input,
+.shipping_one_line>select,
+.shipping_one_line>div {
+    display: inline;
+}
+
+.shipping_left>input,
+.shipping_left>button {
+    display: block;
+}
+
+.shipping_right>h6 {
+    color: black;
+}
+
+.shipping_table {
+    display: grid;
+    margin: 20px;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns: 40% 20% 20% 20%;
+}
+
+.shipping_table_data>img {
+    width: 70px;
+    height: 70px;
+}
+
+.shipping_table_data>h5 {
+    color: black;
+}
+
+.shippingsend {
+    background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    color: #222222;
+    padding: 10px;
+    position: relative;
+    left: 70%;
+    border-radius: 5px;
+    border: none;
 }
