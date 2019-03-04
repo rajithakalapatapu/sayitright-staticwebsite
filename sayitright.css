@@ -33,14 +33,94 @@ nav {
         flex-wrap: wrap;
     }
 
-    .buyfromustable {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     .contactussend,
     .loginsend {
         width: 100%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .buyfromustable {
+        display: grid;
+        margin: auto 10% 10% 10%;
+        grid-gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cardgrid {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px auto 0px auto;
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        padding: 20px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .buyfromustable {
+        display: grid;
+        margin: auto 10% 10% 10%;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cardgrid {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px auto 0px auto;
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        padding: 20px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .buyfromustable {
+        display: grid;
+        margin: auto 10% 10% 10%;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cardgrid {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0px auto 0px auto;
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        padding: 20px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .buyfromustable {
+        display: grid;
+        margin: auto 10% 10% 10%;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cardgrid {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0px auto 0px auto;
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        padding: 20px;
     }
 
 }
@@ -252,13 +332,6 @@ h5 {
     font-weight: bolder;
 }
 
-.buyfromustable {
-    display: grid;
-    margin: auto 10% 10% 10%;
-    grid-gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .buyfromustabledata {
     text-align: left;
     border: 1px dotted;
@@ -402,16 +475,6 @@ h5 {
 .label {
     background-color: #efefef;
     text-align: right;
-    padding: 20px;
-}
-
-.cardgrid {
-    margin: 10px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0px auto 0px auto;
-    grid-column-gap: 30px;
-    grid-row-gap: 20px;
     padding: 20px;
 }
 
