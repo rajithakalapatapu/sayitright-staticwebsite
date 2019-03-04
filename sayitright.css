@@ -1,12 +1,7 @@
 body {
     text-align: center;
     /*font-family: 'Rajdhani';font-size: 22px;*/
-}
-
-nav {
-    background-color: #000033;
-    padding: 10px;
-    font-weight: bold;
+    background-color: #FFFFFF;
 }
 
 @media screen and (max-width: 600px) {
@@ -33,10 +28,14 @@ nav {
         flex-wrap: wrap;
     }
 
-
     .contactussend,
     .loginsend {
         width: 100%;
+    }
+
+    .homepageleft img {
+        width: 80%;
+        height: 70%;
     }
 
 }
@@ -60,6 +59,20 @@ nav {
         padding: 20px;
     }
 
+
+    .homepagegrid {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px auto 0px auto;
+        grid-column-gap: 0px;
+    }
+
+    .homepageleft img {
+        width: 70%;
+        height: 70%;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -79,6 +92,21 @@ nav {
         grid-column-gap: 30px;
         grid-row-gap: 20px;
         padding: 20px;
+    }
+
+    .homepagegrid {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 10% 0px 10%;
+        grid-column-gap: 0px;
+        width: 70%;
+        padding: 200px;
+    }
+
+    .homepageleft img {
+        width: 70%;
+        height: 70%;
     }
 
 }
@@ -102,27 +130,31 @@ nav {
         padding: 20px;
     }
 
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .buyfromustable {
-        display: grid;
-        margin: auto 10% 10% 10%;
-        grid-gap: 10px;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .cardgrid {
+    .homepagegrid {
         margin: 10px;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
         margin: 0px auto 0px auto;
-        grid-column-gap: 30px;
-        grid-row-gap: 20px;
-        padding: 20px;
+        grid-column-gap: 0px;
+        width: 70%;
+        padding: 200px;
     }
 
+    .homepageleft img {
+        width: 50%;
+        height: 70%;
+    }
+
+}
+
+
+.copyright {
+    background-color: #000033;
+    width: 100%;
+    font-size: 0.70em Roboto;
+    font-style: italic;
+    text-align: center;
 }
 
 .nav_left,
@@ -137,6 +169,12 @@ nav {
 .contactusright {
     display: inline-block;
     vertical-align: top;
+}
+
+nav {
+    background-color: #000033;
+    padding: 10px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -196,6 +234,7 @@ h5 {
 #wrapper {
     margin: 0 auto 0 auto;
     width: 80%;
+    text-align: center;
 }
 
 .bkgnd {
@@ -203,14 +242,6 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.copyright {
-    background-color: #000033;
-    width: 100%;
-    height: 100px;
-    font-size: 0.70em Roboto;
-    font-style: italic;
 }
 
 .copyright p {
@@ -359,17 +390,20 @@ h5 {
     margin: 10px 140px 10px 140px;
     font-weight: bold;
     color: #000033;
+    font-family: verdana, arial, sanserif;
 }
 
 #footerh6 {
     margin: 5px 140px 20px 140px;
     color: #777777;
     text-align: left;
+    font-family: verdana, arial, sanserif;
 }
 
 .footerleft {
     display: inline-block;
     vertical-align: center;
+    margin-right: 25%;
 }
 
 .footerright {
@@ -398,30 +432,28 @@ h5 {
     border-style: solid;
 }
 
-.homepageleft img {
-    width: 30%;
-    height: 70%;
-}
+
 
 .homepageright_playbutton {
     display: inline-block;
     padding: 10px;
+    position: relative;
+    left: -70px;
 }
 
 .homepageright_playtext {
     display: inline-block;
+    position: relative;
+    left: -50px;
 }
 
-.homepagegrid {
-    margin: 10px;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    margin: 0px auto 0px auto;
-    grid-column-gap: 0px;
-    width: 70%;
-    padding: 200px;
+.homepageright>h1 {
+    line-height: 200%;
+    color: white;
+    font-family: Georgia, serif;
+    text-align: left;
 }
+
 
 .summarygrid {
     margin: 10px;
@@ -734,6 +766,7 @@ h5 {
 
 .red {
     color: red;
+    display: inline;
 }
 
 .buytablebutton {
@@ -920,4 +953,33 @@ h5 {
     border-radius: 5px;
     border: none;
     margin: auto auto 5% auto;
+}
+
+.round-button {
+    box-sizing: border-box;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding-top: 14px;
+    padding-left: 8px;
+    line-height: 20px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.round-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 10px rgba(255, 255, 100, 1);
+    text-shadow: 0px 0px 10px rgba(255, 255, 100, 1);
+}
+
+.activetab {
+    color: rgb(0, 153, 255);
 }
