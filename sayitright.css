@@ -456,6 +456,12 @@ textarea {
     text-align: left;
 }
 
+.conferenceslist>h1 {
+    line-height: 200%;
+    color: black;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
 
 .summarygrid {
     margin: 10px;
@@ -592,23 +598,20 @@ textarea {
     line-height: 1.5em;
 }
 
-.conferenceslist {
-    padding-bottom: 5%;
-}
-
-.conferenceslist>h4 {
+.conferenceslist>h2 {
     color: black;
     position: relative;
     top: 30%;
     padding: 10px;
     font-size: 140%;
     font-weight: bolder;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 #conferencedetails {
     border-collapse: collapse;
     border-spacing: 5px;
-    width: 80%;
+    width: 100%;
 }
 
 .loginsend {
