@@ -353,6 +353,7 @@ h5 {
 }
 
 input[type="text"],
+input[type="email"],
 textarea {
     font-family: Verdana, Arial, sans-serif;
     padding: 5px;
@@ -614,6 +615,19 @@ textarea {
     width: 100%;
 }
 
+.table_header {
+    color: black;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 120%;
+    text-align: center;
+}
+
+.table_cell {
+    color: black;
+    font-family: Verdana, Arial, sans-serif;
+    padding: 10px
+}
+
 .loginsend {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
     padding: 10px;
@@ -850,27 +864,33 @@ textarea {
     padding: 10px;
     border-radius: 5px;
     border: none;
+    font-family: Verdana, Arial, sans-serif;
+    width: 100%;
 }
 
 .settingsbutton {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
     background-size: 200% auto;
     color: #222222;
-    padding: 10px;
     float: right;
     margin: 20px;
     border-radius: 5px;
     border: none;
+    font-family: Verdana, Arial, sans-serif;
+    padding: 10px 20px 10px 20px;
 }
 
 .settingsh4 {
     color: black;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .settings {
-    width: 80%;
-    margin: 5% auto 5% auto;
     align-items: center;
+}
+
+.settings>* {
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .shipping {
@@ -885,7 +905,9 @@ textarea {
 
 .shipping_left>*,
 .shipping_one_line>*,
-.settings_right>* {
+.settings_right>div,
+.settings_right>h3,
+.settings_right>p {
     padding: 5px;
     margin: 2px;
     text-align: left;
