@@ -98,10 +98,7 @@ body {
         margin: 10px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0px 10% 0px 10%;
         grid-column-gap: 0px;
-        width: 70%;
-        padding: 200px;
     }
 
     .homepageleft img {
@@ -131,14 +128,11 @@ body {
     }
 
     .homepagegrid {
-        margin: 10px;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         margin: 0px auto 0px auto;
         grid-column-gap: 0px;
-        width: 70%;
-        padding: 200px;
     }
 
     .homepageleft img {
@@ -232,7 +226,7 @@ h5 {
 }
 
 #wrapper {
-    margin: 0 auto 0 auto;
+    margin: 10% 10% 10% 10%;
     width: 80%;
     text-align: center;
 }
@@ -262,16 +256,19 @@ h5 {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 0;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 #breadcrumbh4 {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 0;
+    color: white;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .breadcrumb img {
@@ -283,10 +280,7 @@ h5 {
     align-items: center;
     justify-content: center;
     display: flex;
-
     background-color: #000033;
-    width: 60%;
-    margin: 5% auto 5% auto;
 }
 
 .aboutusimage img {
@@ -298,9 +292,14 @@ h5 {
     max-height: 100%;
 }
 
+.aboutustext>h2 {
+    font-family: Verdana, Arial, sans-serif;
+}
+
 .aboutustext {
     text-align: left;
     padding: 30px;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .aboutustexth5 {
@@ -310,6 +309,7 @@ h5 {
 
 .aboutustext p {
     color: white;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .contactus {
@@ -390,14 +390,14 @@ h5 {
     margin: 10px 140px 10px 140px;
     font-weight: bold;
     color: #000033;
-    font-family: verdana, arial, sanserif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 #footerh6 {
     margin: 5px 140px 20px 140px;
     color: #777777;
     text-align: left;
-    font-family: verdana, arial, sanserif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .footerleft {
@@ -431,8 +431,6 @@ h5 {
     border-width: 2px;
     border-style: solid;
 }
-
-
 
 .homepageright_playbutton {
     display: inline-block;
