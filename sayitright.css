@@ -687,7 +687,7 @@ textarea {
     /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     /* Black w/ opacity */
 }
 
@@ -723,6 +723,7 @@ textarea {
 
 .modal-content-right>h5 {
     color: red;
+    text-align: left;
 }
 
 .modal_title>close {
