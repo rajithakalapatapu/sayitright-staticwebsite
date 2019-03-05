@@ -464,20 +464,6 @@ textarea {
     text-align: center;
 }
 
-.summarygrid {
-    margin: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 1.5fr 0.6fr;
-    margin: 0px auto 0px auto;
-    grid-column-gap: 30px;
-    padding: 20px;
-}
-
-.summarygrid>div {
-    padding: 10px;
-}
-
 .summary_card_icon {
     float: left;
 }
@@ -486,31 +472,17 @@ textarea {
     float: right;
     text-align: right;
     padding: 10px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.cardgrid>div>*,
+.individuallogintext {
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .summary_card_label {
     clear: both;
-    margin: auto auto -10 auto;
-}
-
-.totalmade {
-    text-align: center;
-    background-color: navy;
-}
-
-.conferences {
-    text-align: center;
-    background-color: green;
-}
-
-.events {
-    text-align: center;
-    background-color: yellow;
-}
-
-.activities {
-    text-align: center;
-    background-color: grey;
+    margin: auto auto -17 auto;
 }
 
 .label {
@@ -625,7 +597,7 @@ textarea {
 .table_cell {
     color: black;
     font-family: Verdana, Arial, sans-serif;
-    padding: 10px
+    padding: 10px;
 }
 
 .loginsend {
@@ -985,7 +957,7 @@ textarea {
     padding: 20px;
     border-radius: 5px;
     border: none;
-    margin: auto auto 5% auto;
+    margin: 5% auto 5% auto;
 }
 
 .round-button {
