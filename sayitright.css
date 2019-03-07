@@ -804,9 +804,10 @@ textarea {
 }
 
 .radiobuttons {
+    text-align: center;
+}
+.radiobuttons>* {
     display: inline-block;
-    position: relative;
-    left: 25%;
 }
 
 .radiobuttons>h6,
