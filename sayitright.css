@@ -777,7 +777,7 @@ textarea {
     border: none;
 }
 
-#singupsend {
+.signupsend {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
     background-size: 200% auto;
     color: #222222;
