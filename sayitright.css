@@ -417,24 +417,29 @@ textarea {
     padding: 5px 25px 5px 25px;
     float: right;
     border-width: 5px;
-    border-style: solid;
 }
 
 .homepageright_playbutton {
     display: inline-block;
     padding: 10px;
     position: relative;
-    left: -70px;
+    left: -180px;
 }
 
 .homepageright_playtext {
     display: inline-block;
     position: relative;
-    left: -50px;
+    left: -170px;
 }
 
 .homepageright>h1 {
     line-height: 200%;
+    color: white;
+    font-family: Georgia, serif;
+    text-align: left;
+}
+
+.homepageright>h6 {
     color: white;
     font-family: Georgia, serif;
     text-align: left;
@@ -646,7 +651,6 @@ textarea {
     background-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
     padding: 10px;
     border-radius: 5px;
-    border-style: none;
     font-family: Verdana, Arial, sans-serif;
 }
 
